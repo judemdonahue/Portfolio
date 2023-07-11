@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import '../styles/styles.css';
 
-function NameContainer() {
+function IntroSection() {
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -43,4 +43,4 @@ function NameContainer() {
     );
 }
 
-export default NameContainer;
+export default IntroSection;
