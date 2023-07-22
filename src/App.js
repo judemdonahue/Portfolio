@@ -4,6 +4,8 @@ import NavDiv from "./components/NavDiv";
 import IntroSection from "./components/IntroSection";
 import SkillsContainer from "./components/SkillsContainer";
 import ProjectSection from "./components/ProjectSection";
+import Contact from "./components/contact"
+import Footer from "./components/footer"
 
 
 
@@ -27,6 +29,8 @@ function App() {
             <NavDiv />
             <IntroSection />
             <ProjectSection />
+            <Contact />
+            <Footer />
             {/* <SkillsContainer /> */}
         </div>
     );

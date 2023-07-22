@@ -103,6 +103,36 @@ function ProjectSection() {
                             </div>
                         </div>
                       </div>
+
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
+                        <div className="slider bg-gris"></div>
+                        <div className="dog-ear-wrapper">
+                            <div className="dog-ear justify-content-end">
+                                <img src={dogEar} alt="DogEar" />
+                            </div>
+                            <div className="text-wrapper text-light">
+                                Poké-Search
+                            </div>
+                            <div className="info-text text-light">
+                                A comprehensive app that allows users to search and retrieve detailed information on any Pokémon.
+                            </div>
+                        </div>
+                      </div>
+
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
+                        <div className="slider bg-gris"></div>
+                        <div className="dog-ear-wrapper">
+                            <div className="dog-ear justify-content-end">
+                                <img src={dogEar} alt="DogEar" />
+                            </div>
+                            <div className="text-wrapper text-light">
+                                Poké-Search
+                            </div>
+                            <div className="info-text text-light">
+                                A comprehensive app that allows users to search and retrieve detailed information on any Pokémon.
+                            </div>
+                        </div>
+                      </div>
     
                     </div>
                 </div>

@@ -212,6 +212,64 @@ p {
 /* GRID SECTION END */
 
 
+/* Contact Section Start */
+.contact-container{
+    padding-top: 500px;
+    width: 65% !important;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact-option{
+    background: #252525;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.contact-option:hover{
+    background: transparent;
+    background-color: #24252a;
+}
+.contact-option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.icon{
+    color: #616161;
+    font-size: x-large;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+textarea{
+    height: 100%;
+    resize: none !important;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #616161;
+    resize: none;
+    color: white;
+}
+
+.section-container{
+    width: 75%;
+    justify-content: center;
+}
+/* Contact Section End */
 
 
 
@@ -271,7 +329,7 @@ p {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .container{
         max-width: 450px !important; 
     }
@@ -280,5 +338,6 @@ p {
     .container{
         max-width: 300px !important; 
     }
-}
+} */
 /* MEDIA QUERIES */
+
