@@ -12,16 +12,14 @@ Portfolio page built using React. A dynamic and modern website that showcases my
 
 - [License](#License)
 
-- [Credits](#Credits)
-
-- [Tests](#Tests)
+- [Technologies-Used](#Technologies-Used)
 
 - [Questions](#Questions)
 
 ## Installation
 [Deployed-Portfolio](https://judemdonahue.github.io/REACT-portfolio/)
 
-## Technologies Used
+## Technologies-Used
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
