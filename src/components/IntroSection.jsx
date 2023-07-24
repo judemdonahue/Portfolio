@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import '../styles/styles.css';
+import headShot from '../images/JudeHeadshotSuit.jpg'
 
 function IntroSection() {
     const containerRef = useRef(null);
@@ -26,6 +27,7 @@ function IntroSection() {
 
     return (
         <section ref={containerRef} className="hidden">
+            <img src={headShot} alt="" />
             <div className="name-container container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8">

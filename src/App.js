@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavDiv from "./components/NavDiv";
 import IntroSection from "./components/IntroSection";
+import About from "./components/about"
 import SkillsContainer from "./components/SkillsContainer";
 import ProjectSection from "./components/ProjectSection";
 import Contact from "./components/contact"
@@ -28,6 +29,7 @@ function App() {
         <div>
             <NavDiv />
             <IntroSection />
+            <About />
             <ProjectSection />
             <Contact />
             <Footer />

@@ -13,7 +13,15 @@ function Footer() {
                 <li><a href="#">Contact</a></li>
             </ul>
 
-        <div className="footer-socials"></div>
+        <div className="footer-socials">
+            <a href="https://github.com/judemdonahue"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jude-donahue/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""></a>
+        </div>
+
+        <div className="footer-copyright">
+            <small>&copy; JUDE DONAHUE. All rights reserved.</small>
+        </div>
 
         </footer>
     )
