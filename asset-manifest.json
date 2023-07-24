@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef6c5dce.css",
+    "main.js": "/static/js/main.133cd49f.js",
+    "static/media/topo-bg.png": "/static/media/topo-bg.2a3ebea71ecf3dce61fd.png",
+    "static/media/JudeHeadshotSuit.jpg": "/static/media/JudeHeadshotSuit.09d162d1aa9de60520be.jpg",
+    "static/media/Oxanium-VariableFont_wght.ttf": "/static/media/Oxanium-VariableFont_wght.d26645d688bccd49b28b.ttf",
+    "static/media/pokesearchlogo.png": "/static/media/pokesearchlogo.2325eda6dd17f15ef27e.png",
+    "static/media/readmelogo.png": "/static/media/readmelogo.381502e6db78413a28c9.png",
+    "static/media/weatherlogo.png": "/static/media/weatherlogo.80e8f402f799c429e9d9.png",
+    "static/media/MUSElogo.png": "/static/media/MUSElogo.8e2056b2e28a97ebb64d.png",
+    "static/media/taskhublogo.svg": "/static/media/taskhublogo.1723f7a3eb7879a23fa30512086103f8.svg",
+    "static/media/judedonahuelogo.svg": "/static/media/judedonahuelogo.acaf923a6015a8ed7bf390bca5bc6c66.svg",
+    "index.html": "/index.html",
+    "main.ef6c5dce.css.map": "/static/css/main.ef6c5dce.css.map",
+    "main.133cd49f.js.map": "/static/js/main.133cd49f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6c5dce.css",
+    "static/js/main.133cd49f.js"
+  ]
+}
