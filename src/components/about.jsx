@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import headShot from '../images/JudeHeadshotSuit.jpg'
 
-const PDF_FILE_URL = '../../Jude-Donahue_Resume.pdf'
+const PDF_FILE_URL = 'http://localhost:3000/Jude-Donahue_Resume.pdf'
 
 function About() {
+
+    const containerRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          // Add 'show' class to child elements with the class 'hidden'
+          const childElements = entry.target.getElementsByClassName('hidden');
+          for (let i = 0; i < childElements.length; i++) {
+            childElements[i].classList.add('show');
+          }
+        } else {
+          entry.target.classList.remove('show');
+          // Remove 'show' class from child elements with the class 'hidden'
+          const childElements = entry.target.getElementsByClassName('hidden');
+          for (let i = 0; i < childElements.length; i++) {
+            childElements[i].classList.remove('show');
+          }
+        }
+      });
+    });
+
+    const containerElement = containerRef.current;
+    observer.observe(containerElement);
+
+    return () => {
+      observer.unobserve(containerElement);
+    };
+  }, []);
     const downloadFileAtURL=(url)=>{
         const fileName = url.split('/').pop();
         const aTag = document.createElement('a');
@@ -14,7 +46,7 @@ function About() {
         aTag.remove();
     }
     return (
-        <section>
+        <section ref={containerRef} className="hidden">
             <div className="about-container container">
             <div className="row justify-content-center">
 
@@ -45,7 +77,11 @@ function About() {
                 </div>
 
                 <div className="col-lg-3">
-                    <img id="img" src={headShot} alt="Jude-img" />
+
+                    <div ref={containerRef} className="headshot-container hidden">
+                        <img id="img" src={headShot} alt="Jude-img" />
+                    </div>
+
                     <div className="container">
 
                         <p className="text-center mt-5">My Resume:</p>

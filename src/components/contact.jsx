@@ -47,6 +47,9 @@ function Contact() {
                             <div className="contact-options">
 
                                 <article className="contact-option">
+                                  <div className="dog-ear justify-content-end">
+                                    <img src={dogEar} alt="DogEar" />
+                                  </div>
                                     <i className="icon fa-sharp fa-regular fa-envelope" ></i>
                                     <h4 className="text-gris">Email</h4>
                                     <h5 className="text-gris">judemdonahue@gmail.com</h5>
@@ -54,6 +57,9 @@ function Contact() {
                                 </article>
 
                                 <article className="contact-option">
+                                    <div className="dog-ear justify-content-end">
+                                      <img src={dogEar} alt="DogEar" />
+                                    </div>
                                     <i class="icon fa-sharp fa-solid fa-mobile-screen-button"></i>
                                     <h4 className="text-gris">Phone</h4>
                                     <h5 className="text-gris">512-970-3159</h5>
@@ -61,6 +67,9 @@ function Contact() {
                                 </article>
 
                                 <article className="contact-option">
+                                    <div className="dog-ear justify-content-end">
+                                      <img src={dogEar} alt="DogEar" />
+                                    </div>
                                     <i className="icon fa-sharp fa-regular fa-envelope" ></i>
                                     <h4 className="text-gris">Email</h4>
                                     <h5 className="text-gris">judemdonahue@gmail.com</h5>

@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import '../styles/styles.css';
-import headShot from '../images/JudeHeadshotSuit.jpg'
 
 function IntroSection() {
     const containerRef = useRef(null);

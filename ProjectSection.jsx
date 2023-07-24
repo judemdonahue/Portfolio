@@ -38,13 +38,11 @@ function ProjectSection() {
     return (
         <section ref={containerRef} className="hidden">
 
-          <h1 className="text-center text-light">Noteworthy Projects</h1>
-
             <div className="grid-container">
                 <div className="container">
                     <div className="row justify-content-center">
     
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
@@ -59,7 +57,7 @@ function ProjectSection() {
                         </div>
                       </div>
     
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
@@ -73,8 +71,10 @@ function ProjectSection() {
                             </div>
                         </div>                      
                       </div>
-
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+    
+                      <div className="w-100"></div>
+    
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
@@ -89,11 +89,7 @@ function ProjectSection() {
                         </div>
                       </div>
     
-                      <div className="w-100"></div>
-    
-                      
-    
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
@@ -108,7 +104,7 @@ function ProjectSection() {
                         </div>
                       </div>
 
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
@@ -123,7 +119,7 @@ function ProjectSection() {
                         </div>
                       </div>
 
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} className="hidden grid-item col-5 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                             <div className="dog-ear justify-content-end">
