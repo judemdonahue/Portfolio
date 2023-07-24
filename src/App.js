@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from "./components/Nav";
 import Intro from "./components/Intro";
 import About from "./components/About"

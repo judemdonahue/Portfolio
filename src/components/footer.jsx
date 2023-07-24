@@ -4,7 +4,7 @@ import '../styles/styles.css';
 function Footer() {
     return (
         <footer>
-            <a href="#" className="footer-logo">JUDE DONAHUE</a>
+            <h2 className="mb-5">JUDE DONAHUE</h2>
 
             <ul className="permalinks">
                 <li><a href="#about">About</a></li>
