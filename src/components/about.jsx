@@ -46,7 +46,7 @@ function About() {
         aTag.remove();
     }
     return (
-        <section ref={containerRef} className="hidden">
+        <section ref={containerRef} id="about" className="hidden">
 
         <h1 className="text-light text-center mb-5">About me</h1>
         

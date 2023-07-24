@@ -17,7 +17,11 @@ body{
     background-position: center;
 }
 section {
+    padding-top: 100px;
     min-height: 100vh;
+}
+#intro{
+    padding-top: 0px !important;
 }
 .text-gris{
     color: var(--lightgrey);
@@ -222,6 +226,20 @@ p {
     overflow: hidden;
     word-wrap: break-word;
 
+}
+.img-container{
+    display: flex;
+    height: 60%;
+}
+.img-container img{
+
+    width: 90%;
+}
+#project-logo-weather{
+    width: 50%;
+}
+#project-logo-na{
+    width: 50%;
 }
 /* GRID SECTION END */
 

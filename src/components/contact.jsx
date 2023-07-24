@@ -37,7 +37,7 @@ function Contact() {
   }, []);
 
     return (
-        <section ref={containerRef} className="hidden">
+        <section ref={containerRef} id="contact" className="hidden">
 
 
             <h1 className="text-gris text-center mb-5">Get In Touch</h1>
@@ -69,10 +69,10 @@ function Contact() {
                                     <div className="dog-ear justify-content-end">
                                       <img src={dogEar} alt="DogEar" />
                                     </div>
-                                    <i className="icon fa-sharp fa-regular fa-envelope" ></i>
-                                    <h4 className="text-gris">Email</h4>
-                                    <h5 className="text-gris">judemdonahue@gmail.com</h5>
-                                    <a href="mailto:judemdonahue@gmail.com">Send a message!</a>
+                                    <i className="icon fa-brands fa-facebook-messenger" ></i>
+                                    <h4 className="text-gris">Messenger</h4>
+                                    <h5 className="text-gris">Jude Donahue</h5>
+                                    <a href="https://m.me/judemdonahue">Send a message!</a>
                                 </article>
 
 
@@ -82,7 +82,7 @@ function Contact() {
                                 <input type="text" name="name" placeholder="Your Full Name" required/>
                                 <input type="email" name="email" placeholder="Your Email" required/>
                                 <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
-                                <button type="submit" className="btn btn-primary">Send Message</button>
+                                <button type="submit" className="cta">Send Message</button>
                             </form>
                             
                         </div>
