@@ -27,7 +27,6 @@ function IntroSection() {
 
     return (
         <section ref={containerRef} className="hidden">
-            <img src={headShot} alt="" />
             <div className="name-container container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
