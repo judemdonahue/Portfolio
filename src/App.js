@@ -1,39 +1,23 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavDiv from "./components/NavDiv";
-import IntroSection from "./components/IntroSection";
-import About from "./components/about"
-import SkillsContainer from "./components/SkillsContainer";
-import ProjectSection from "./components/ProjectSection";
-import Contact from "./components/contact"
-import Footer from "./components/footer"
+import Nav from "./components/Nav";
+import Intro from "./components/Intro";
+import About from "./components/About"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
 function App() {
     return (
-        // <BrowserRouter>
-        //     <Routes>
-        //         <Route path='portfolio' element={<Portfolio
-        //         />}>
-                    
-        //         </Route>
-
-        //         <Route>
-                    
-        //         </Route>
-
-        //     </Routes>
-        // </BrowserRouter>
-
         <div>
-            <NavDiv />
-            <IntroSection />
+            <Nav />
+            <Intro />
             <About />
-            <ProjectSection />
+            <Projects />
             <Contact />
             <Footer />
-            {/* <SkillsContainer /> */}
         </div>
     );
 }

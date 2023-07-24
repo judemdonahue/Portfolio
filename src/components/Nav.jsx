@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/styles.css';
 import logo from '../images/judedonahuelogo.svg'
 
-function NavDiv() {
+function Nav() {
     return (
         <div className="header">
             <img className="svg" src={logo} alt="JDlogo"></img>
@@ -10,7 +10,6 @@ function NavDiv() {
                 <ul>
                     <li><a href="#Home">About</a></li>
                     <li><a href="#about">Portfolio</a> </li>
-                    <li><a href="#portfolio">Resume</a></li>
                 </ul>
             </nav>
             <a className="cta" href="#contact"><button>Contact</button></a>
@@ -18,4 +17,4 @@ function NavDiv() {
     )
 }
 
-export default NavDiv;
+export default Nav;

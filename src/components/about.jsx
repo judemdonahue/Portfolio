@@ -47,11 +47,15 @@ function About() {
     }
     return (
         <section ref={containerRef} className="hidden">
+
+        <h1 className="text-light text-center mb-5">About me</h1>
+        
             <div className="about-container container">
             <div className="row justify-content-center">
+              
 
                 <div className="col-lg-5">
-                    <h2 className="text-light">About me</h2>
+                    
                     <p>My name is Jude Donahue, born and raised in Austin, currently pursuing a degree in full stack web development, combining my passion for technology, problem-solving, and creative skills. Alongside web development, I have a strong background in music production, which has honed my attention to detail, work ethic, and teamwork abilities.</p>
                     <p>Moreover, I am Photoshop certified and experienced in graphic design, creating high-quality digital content for websites and social media. Through this, I have gained expertise in online networking, digital marketplace sales, and building a strong online presence.</p>
                     <p>In summary, I am a dedicated and creative professional with diverse skills and experiences, always seeking new challenges and opportunities to grow as a web developer and creative expert.</p>

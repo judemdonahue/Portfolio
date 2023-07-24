@@ -40,8 +40,7 @@ function Contact() {
         <section ref={containerRef} className="hidden">
 
 
-            {/* <h5 className="text-gris text-center">Get in touch</h5>
-            <h1 className="text-gris text-center">Contact Me</h1> */}
+            <h1 className="text-gris text-center mb-5">Get In Touch</h1>
 
             <div className="contact-container container">
                             <div className="contact-options">

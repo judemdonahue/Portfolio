@@ -128,18 +128,25 @@ p {
 .name-container{
     padding-top: 200px;
 }
+.headshot-container{
+    display: inline-block; /* or 'block', 'inline', etc. based on your layout needs */
+    border: 2px solid #616161; /* 2px solid red border */
+    border-radius: 10px; /* 10px border radius for rounded corners */
+    padding: 10px; /* 10px offset around the image container (outer container) */
+}
 #img{
-    margin-top: 3rem;
+    display: block;
     width: 300px;
     height: 300px;
+    z-index: 2;
+    
 }
 /* NAME SECTION END */
 
 
 
 /* SKILLS SECTION START */
-.skills-container{
-}
+
 .skill-item{
     height: 250px;
     margin: 10px;
@@ -221,7 +228,6 @@ p {
 
 /* Contact Section Start */
 .contact-container{
-    padding-top: 500px;
     width: 65% !important;
     display: grid;
     grid-template-columns: 30% 58%;
