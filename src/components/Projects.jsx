@@ -5,13 +5,16 @@ import museLogo from '../images/MUSElogo.png'
 import taskHubLogo from '../images/taskhublogo.svg'
 import pokeLogo from '../images/pokesearchlogo.png'
 import weatherLogo from '../images/weatherlogo.png'
-import naLogo from '../images/n-a.png'
+import sentineticLogo from '../images/sentinetic-logo-invert.svg'
 import readmeLogo from '../images/readmelogo.png'
 
 function Projects() {
 
   const redirectTaskhub = () => {
     window.location.href = 'https://taskhub.herokuapp.com/'
+  }
+  const redirectSentinetic = () => {
+    window.location.href = 'https://sentinetic-987fae0a7fa7.herokuapp.com/'
   }
   const redirectPokeSearch = () => {
     window.location.href = 'https://tpesti96.github.io/Project-01-group-4/'
@@ -91,7 +94,7 @@ function Projects() {
                         </div>
                       </div>
     
-                      <div ref={containerRef} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} onClick={redirectSentinetic} className="hidden grid-item col-3 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                           
@@ -100,7 +103,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo-na" src={naLogo} alt="na-logo" />
+                              <img id="project-logo-na" src={sentineticLogo} alt="sentinetic-logo" />
                             </div>
                             
                             <div className="text-wrapper text-light">
