@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef6c5dce.css",
-    "main.js": "/static/js/main.32a72123.js",
-    "static/media/topo-bg.png": "/static/media/topo-bg.2a3ebea71ecf3dce61fd.png",
-    "static/media/JudeHeadshotSuit.jpg": "/static/media/JudeHeadshotSuit.09d162d1aa9de60520be.jpg",
-    "static/media/Oxanium-VariableFont_wght.ttf": "/static/media/Oxanium-VariableFont_wght.d26645d688bccd49b28b.ttf",
-    "static/media/judedonahuelogo.svg": "/static/media/judedonahuelogo.acaf923a6015a8ed7bf390bca5bc6c66.svg",
-    "index.html": "/index.html",
-    "main.ef6c5dce.css.map": "/static/css/main.ef6c5dce.css.map",
-    "main.32a72123.js.map": "/static/js/main.32a72123.js.map"
+    "main.css": "/Portfolio/static/css/main.c2b72498.css",
+    "main.js": "/Portfolio/static/js/main.2928bf53.js",
+    "static/media/topo-bg.png": "/Portfolio/static/media/topo-bg.2a3ebea71ecf3dce61fd.png",
+    "static/media/JudeHeadshotSuit.jpg": "/Portfolio/static/media/JudeHeadshotSuit.09d162d1aa9de60520be.jpg",
+    "static/media/Oxanium-VariableFont_wght.ttf": "/Portfolio/static/media/Oxanium-VariableFont_wght.d26645d688bccd49b28b.ttf",
+    "static/media/judedonahuelogo.svg": "/Portfolio/static/media/judedonahuelogo.acaf923a6015a8ed7bf390bca5bc6c66.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.c2b72498.css.map": "/Portfolio/static/css/main.c2b72498.css.map",
+    "main.2928bf53.js.map": "/Portfolio/static/js/main.2928bf53.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef6c5dce.css",
-    "static/js/main.32a72123.js"
+    "static/css/main.c2b72498.css",
+    "static/js/main.2928bf53.js"
   ]
 }
