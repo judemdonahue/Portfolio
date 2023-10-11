@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import headShot from '../images/JudeHeadshotSuit.jpg'
 
-const PDF_FILE_URL = 'http://localhost:3000/Jude-Donahue_Resume.pdf'
+const PDF_FILE_URL = 'http://localhost:3000/JudeDonahue_Resume.pdf'
 
 function About() {
 

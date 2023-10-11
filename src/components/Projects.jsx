@@ -1,12 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import '../styles/styles.css';
 import dogEar from '../images/DogEar.png'
-import museLogo from '../images/MUSElogo.png'
-import taskHubLogo from '../images/taskhublogo.svg'
-import pokeLogo from '../images/pokesearchlogo.png'
-import weatherLogo from '../images/weatherlogo.png'
-import sentineticLogo from '../images/sentinetic-logo-invert.svg'
-import readmeLogo from '../images/readmelogo.png'
+// import museLogo from '../images/MUSElogo.png'
+// import taskHubLogo from '../images/taskhublogo.svg'
+// import pokeLogo from '../images/pokesearchlogo.png'
+// import weatherLogo from '../images/weatherlogo.png'
+// import sentineticLogo from '../images/sentinetic-logo-invert.svg'
+// import readmeLogo from '../images/readmelogo.png'
+
+// Layout for including image in project containers.
+{/* <img id="project-logo" src={taskHubLogo} alt="taskhub-logo" /> */}
 
 function Projects() {
 
@@ -14,7 +17,7 @@ function Projects() {
     window.location.href = 'https://taskhub.herokuapp.com/'
   }
   const redirectSentinetic = () => {
-    window.location.href = 'https://sentinetic-987fae0a7fa7.herokuapp.com/'
+    window.location.href = 'https://sentinetic-app-6427dae6a2cc.herokuapp.com/'
   }
   const redirectPokeSearch = () => {
     window.location.href = 'https://tpesti96.github.io/Project-01-group-4/'
@@ -82,7 +85,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo" src={taskHubLogo} alt="taskhub-logo" />
+                              
                             </div>
 
                             <div className="text-wrapper text-light">
@@ -94,7 +97,8 @@ function Projects() {
                         </div>
                       </div>
     
-                      <div ref={containerRef} onClick={redirectSentinetic} className="hidden grid-item col-3 m-1 bg-gris">
+                      <div ref={containerRef} onClick={redirectSentinetic} 
+                      className="hidden grid-item col-3 m-1 bg-gris">
                         <div className="slider bg-gris"></div>
                         <div className="dog-ear-wrapper">
                           
@@ -103,7 +107,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo-na" src={sentineticLogo} alt="sentinetic-logo" />
+                              
                             </div>
                             
                             <div className="text-wrapper text-light">
@@ -124,7 +128,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo" src={pokeLogo} alt="pokesearch-logo" />
+                              
                             </div>
 
                             <div className="text-wrapper text-light">
@@ -149,7 +153,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo" src={museLogo} alt="muse-logo" />
+                             
                             </div>
 
                             <div className="text-wrapper text-light">
@@ -170,7 +174,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo-weather" src={weatherLogo} alt="weather-logo" />
+                              
                             </div>
 
                             <div className="text-wrapper text-light">
@@ -191,7 +195,7 @@ function Projects() {
                             </div>
 
                             <div className="img-container justify-content-center align-items-center">
-                              <img id="project-logo-na" src={readmeLogo} alt="readme-logo" />
+                              
                             </div>
 
                             <div className="text-wrapper text-light">
